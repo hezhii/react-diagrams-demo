@@ -15,6 +15,9 @@ export default () => {
         <li>
           <Link to="custom-node">Custom Node</Link>
         </li>
+        <li>
+          <Link to="custom-link">Custom Link</Link>
+        </li>
       </ul>
     </div>
   );

@@ -7,6 +7,7 @@ import Home from './routes/Home';
 import Simple from './routes/Simple';
 import SimpleFlow from './routes/SimpleFlow';
 import CustomNode from './routes/CustomNode';
+import CustomLink from './routes/CustomLink';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/simple" component={Simple} />
           <Route path="/simple-flow" component={SimpleFlow} />
           <Route path="/custom-node" component={CustomNode} />
+          <Route path="/custom-link" component={CustomLink} />
         </Switch>
       </Router>
     );

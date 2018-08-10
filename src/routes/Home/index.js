@@ -12,6 +12,9 @@ export default () => {
         <li>
           <Link to="simple-flow">Simple Flow</Link>
         </li>
+        <li>
+          <Link to="custom-node">Custom Node</Link>
+        </li>
       </ul>
     </div>
   );

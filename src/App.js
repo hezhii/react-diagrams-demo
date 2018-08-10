@@ -6,6 +6,7 @@ import './App.css';
 import Home from './routes/Home';
 import Simple from './routes/Simple';
 import SimpleFlow from './routes/SimpleFlow';
+import CustomNode from './routes/CustomNode';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/simple" component={Simple} />
           <Route path="/simple-flow" component={SimpleFlow} />
+          <Route path="/custom-node" component={CustomNode} />
         </Switch>
       </Router>
     );

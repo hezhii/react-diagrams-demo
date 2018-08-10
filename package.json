@@ -6,7 +6,9 @@
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "storm-react-diagrams": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

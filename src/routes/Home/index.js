@@ -18,6 +18,9 @@ export default () => {
         <li>
           <Link to="custom-link">Custom Link</Link>
         </li>
+        <li>
+          <Link to="clone">Clone</Link>
+        </li>
       </ul>
     </div>
   );

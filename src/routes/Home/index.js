@@ -9,6 +9,9 @@ export default () => {
         <li>
           <Link to="simple">Simple</Link>
         </li>
+        <li>
+          <Link to="simple-flow">Simple Flow</Link>
+        </li>
       </ul>
     </div>
   );

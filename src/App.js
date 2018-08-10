@@ -5,6 +5,7 @@ import 'storm-react-diagrams/dist/style.min.css';
 import './App.css';
 import Home from './routes/Home';
 import Simple from './routes/Simple';
+import SimpleFlow from './routes/SimpleFlow';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/simple" component={Simple} />
+          <Route path="/simple-flow" component={SimpleFlow} />
         </Switch>
       </Router>
     );

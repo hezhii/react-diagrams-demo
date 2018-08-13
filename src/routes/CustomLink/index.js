@@ -96,12 +96,6 @@ export class AdvancedLinkFactory extends DefaultLinkFactory {
   }
 }
 
-/**
- *
- * Simple link styling demo
- *
- * @Author kfrajtak
- */
 export default () => {
   //1) setup the diagram engine
   const engine = new DiagramEngine();

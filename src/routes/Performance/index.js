@@ -11,7 +11,6 @@ import {
  * Simple stress test of the system, shows that it can handle many nodes, and
  * retain good performance
  *
- * @Author Dylan Vorster
  */
 export default () => {
   //1) setup the diagram engine

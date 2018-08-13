@@ -48,6 +48,9 @@ export default () => {
         <li>
           <Link to="smart-route">Smart Route</Link>
         </li>
+        <li>
+          <Link to="drag-and-drop">Drag and Drop</Link>
+        </li>
       </ul>
     </div>
   );

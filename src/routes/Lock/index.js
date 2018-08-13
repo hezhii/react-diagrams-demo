@@ -10,7 +10,6 @@ import {
  *
  * Shows how you can lock down the system so that the entire scene cant be interacted with.
  *
- * @Author Dylan Vorster
  */
 export default () => {
   //1) setup the diagram engine

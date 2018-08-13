@@ -18,6 +18,7 @@ import Serialize from './routes/Serialize';
 import ZoomToFit from './routes/ZoomToFit';
 import MutateGraph from './routes/MutateGraph';
 import SmartRoute from './routes/SmartRoute';
+import DragAndDrop from './routes/DragAndDrop';
 
 class App extends Component {
   render() {
@@ -39,6 +40,7 @@ class App extends Component {
           <Route path="/zoom-to-fit" component={ZoomToFit} />
           <Route path="/mutate-graph" component={MutateGraph} />
           <Route path="/smart-route" component={SmartRoute} />
+          <Route path="/drag-and-drop" component={DragAndDrop} />
         </Switch>
       </Router>
     );

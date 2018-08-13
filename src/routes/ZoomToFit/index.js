@@ -11,7 +11,6 @@ import WorkspaceWidget from '../../component/WorkspaceWidget';
  *
  * Simple stress test of the system plus zoom to fit function
  *
- * @Author Dylan Vorster
  */
 export default () => {
   //1) setup the diagram engine

@@ -33,6 +33,9 @@ export default () => {
         <li>
           <Link to="listeners">Listeners</Link>
         </li>
+        <li>
+          <Link to="performance">Performance</Link>
+        </li>
       </ul>
     </div>
   );

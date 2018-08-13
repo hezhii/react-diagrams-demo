@@ -36,6 +36,9 @@ export default () => {
         <li>
           <Link to="performance">Performance</Link>
         </li>
+        <li>
+          <Link to="serialize">Serialize</Link>
+        </li>
       </ul>
     </div>
   );

@@ -14,6 +14,7 @@ import Lock from './routes/Lock';
 import LimitPoints from './routes/LimitPoints';
 import Listeners from './routes/Listeners';
 import Performance from './routes/Performance';
+import Serialize from './routes/Serialize';
 
 class App extends Component {
   render() {
@@ -31,6 +32,7 @@ class App extends Component {
           <Route path="/limit-points" component={LimitPoints} />
           <Route path="/listeners" component={Listeners} />
           <Route path="/performance" component={Performance} />
+          <Route path="/serialize" component={Serialize} />
         </Switch>
       </Router>
     );

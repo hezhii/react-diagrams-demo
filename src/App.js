@@ -12,6 +12,7 @@ import Clone from './routes/Clone';
 import Grid from './routes/Grid';
 import Lock from './routes/Lock';
 import LimitPoints from './routes/LimitPoints';
+import Listeners from './routes/Listeners';
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
           <Route path="/grid" component={Grid} />
           <Route path="/lock" component={Lock} />
           <Route path="/limit-points" component={LimitPoints} />
+          <Route path="/listeners" component={Listeners} />
         </Switch>
       </Router>
     );

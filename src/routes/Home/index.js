@@ -30,6 +30,9 @@ export default () => {
         <li>
           <Link to="limit-points">Limit Points</Link>
         </li>
+        <li>
+          <Link to="listeners">Listeners</Link>
+        </li>
       </ul>
     </div>
   );

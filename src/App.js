@@ -15,6 +15,7 @@ import LimitPoints from './routes/LimitPoints';
 import Listeners from './routes/Listeners';
 import Performance from './routes/Performance';
 import Serialize from './routes/Serialize';
+import ZoomToFit from './routes/ZoomToFit';
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
           <Route path="/listeners" component={Listeners} />
           <Route path="/performance" component={Performance} />
           <Route path="/serialize" component={Serialize} />
+          <Route path="/zoom-to-fit" component={ZoomToFit} />
         </Switch>
       </Router>
     );

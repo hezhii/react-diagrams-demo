@@ -39,6 +39,9 @@ export default () => {
         <li>
           <Link to="serialize">Serialize</Link>
         </li>
+        <li>
+          <Link to="zoom-to-fit">Zoom To Fit</Link>
+        </li>
       </ul>
     </div>
   );

@@ -11,6 +11,7 @@ import CustomLink from './routes/CustomLink';
 import Clone from './routes/Clone';
 import Grid from './routes/Grid';
 import Lock from './routes/Lock';
+import LimitPoints from './routes/LimitPoints';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
           <Route path="/clone" component={Clone} />
           <Route path="/grid" component={Grid} />
           <Route path="/lock" component={Lock} />
+          <Route path="/limit-points" component={LimitPoints} />
         </Switch>
       </Router>
     );

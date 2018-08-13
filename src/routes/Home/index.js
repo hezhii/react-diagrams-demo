@@ -27,6 +27,9 @@ export default () => {
         <li>
           <Link to="lock">Lock</Link>
         </li>
+        <li>
+          <Link to="limit-points">Limit Points</Link>
+        </li>
       </ul>
     </div>
   );

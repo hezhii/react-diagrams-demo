@@ -42,6 +42,9 @@ export default () => {
         <li>
           <Link to="zoom-to-fit">Zoom To Fit</Link>
         </li>
+        <li>
+          <Link to="mutate-graph">MutateGraph</Link>
+        </li>
       </ul>
     </div>
   );

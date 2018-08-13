@@ -16,6 +16,7 @@ import Listeners from './routes/Listeners';
 import Performance from './routes/Performance';
 import Serialize from './routes/Serialize';
 import ZoomToFit from './routes/ZoomToFit';
+import MutateGraph from './routes/MutateGraph';
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
           <Route path="/performance" component={Performance} />
           <Route path="/serialize" component={Serialize} />
           <Route path="/zoom-to-fit" component={ZoomToFit} />
+          <Route path="/mutate-graph" component={MutateGraph} />
         </Switch>
       </Router>
     );

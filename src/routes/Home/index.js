@@ -21,6 +21,9 @@ export default () => {
         <li>
           <Link to="clone">Clone</Link>
         </li>
+        <li>
+          <Link to="grid">Grid</Link>
+        </li>
       </ul>
     </div>
   );

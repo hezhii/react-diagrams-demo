@@ -5,7 +5,6 @@ import {
   LinkModel,
   NodeModel,
   DiagramWidget,
-  BaseModel,
 } from 'storm-react-diagrams';
 import * as _ from 'lodash';
 import * as React from 'react';

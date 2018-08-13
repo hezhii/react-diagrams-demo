@@ -51,6 +51,9 @@ export default () => {
         <li>
           <Link to="drag-and-drop">Drag and Drop</Link>
         </li>
+        <li>
+          <Link to="dagre">Dagre</Link>
+        </li>
       </ul>
     </div>
   );

@@ -19,6 +19,7 @@ import ZoomToFit from './routes/ZoomToFit';
 import MutateGraph from './routes/MutateGraph';
 import SmartRoute from './routes/SmartRoute';
 import DragAndDrop from './routes/DragAndDrop';
+import Dagre from './routes/Dagre';
 
 class App extends Component {
   render() {
@@ -41,6 +42,7 @@ class App extends Component {
           <Route path="/mutate-graph" component={MutateGraph} />
           <Route path="/smart-route" component={SmartRoute} />
           <Route path="/drag-and-drop" component={DragAndDrop} />
+          <Route path="/dagre" component={Dagre} />
         </Switch>
       </Router>
     );

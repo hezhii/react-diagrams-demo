@@ -10,6 +10,7 @@ import CustomNode from './routes/CustomNode';
 import CustomLink from './routes/CustomLink';
 import Clone from './routes/Clone';
 import Grid from './routes/Grid';
+import Lock from './routes/Lock';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path="/custom-link" component={CustomLink} />
           <Route path="/clone" component={Clone} />
           <Route path="/grid" component={Grid} />
+          <Route path="/lock" component={Lock} />
         </Switch>
       </Router>
     );

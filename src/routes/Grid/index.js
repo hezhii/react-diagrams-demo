@@ -38,5 +38,5 @@ export default () => {
   engine.setDiagramModel(model);
 
   //6) render the diagram!
-  return <DiagramWidget className="srd-demo-canvas" diagramEngine={engine} />;
+  return <DiagramWidget diagramEngine={engine} />;
 };

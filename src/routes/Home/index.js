@@ -24,6 +24,9 @@ export default () => {
         <li>
           <Link to="grid">Grid</Link>
         </li>
+        <li>
+          <Link to="lock">Lock</Link>
+        </li>
       </ul>
     </div>
   );
